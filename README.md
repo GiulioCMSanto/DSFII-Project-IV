@@ -42,11 +42,18 @@ An exhaustive feature selection was performed together with SelectKBest, trying 
 feature combinations.
 
 The best obtained classifier was a **Naive Bayes** with the following results (obtained through
-a stratifiedkfold)
+a stratifiedkfold):
 
-- Accuracy: 0.85793.	That	means	85,793%	of	all	points	were	correctly	
+- **Accuracy**: 0.85793.	That	means	85,793%	of	all	points	were	correctly	
 classified	as POI (people	of	interest)	or Non-POI.
-- Recall: 0.39550.	That	means	amongst	POI	and	Non-POI	in	the	testing	
+- **Recall**: 0.39550.	That	means	amongst	POI	and	Non-POI	in	the	testing	
 set,	39,550%	of	the	POI	were	identified.
-- Precision: 0.50350.	That	means	that	taking	all	the	classified	points,	
+- **Precision**: 0.50350.	That	means	that	taking	all	the	classified	points,	
 50,350%	of	them	were	correctly	classified	as	POI.
+
+## Used Libraries
+- Pandas
+- Numpy
+- Scikit-learn
+- itertools
+- matplotlib
